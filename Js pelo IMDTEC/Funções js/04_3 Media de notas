@@ -1,0 +1,15 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Funções JavaScript - aula 04</title>
+</head>
+<body>
+    <noscript>Seu navegador não pussui suporte para JavaScript</noscript>
+    <h1>Função para calcular a média de notas</h1>
+    N1: <input type="number" id="entrada1" value="">
+    N2: <input type="number" id="entrada2" value="">
+    <button onclick="medianotas()">Ok</button>
+    <p id="resultado"></p>
+<script src="04_3 Media.js"></script>
+</body>
+</html>

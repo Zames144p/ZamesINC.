@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Programação Estruturada - aula 01</title>
+    </head>
+    <body>
+        <noscript>Seu navegador não suporta JavaScript ou está desativado.</noscript>
+        <h1>Instruções JavaScript</h1>
+        <h2>Fornecendo valores para JavaScript</h2>
+        <p id="meu_texto_6"></p>
+        entrada: <input type="text" id="meu_texto" value="">
+        <button type="button" onclick="minhaOutraFuncao()">Clique aqui</button>
+        <script>
+            function minhaOutraFuncao() {
+                var x = document.getElementById("meu_texto").value;
+                document.getElementById("meu_texto_6").innerHTML = x;
+            }
+        </script>
+    </body>
+</html>

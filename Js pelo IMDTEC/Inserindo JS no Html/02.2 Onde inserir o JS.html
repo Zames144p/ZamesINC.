@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Programação Estruturada - Aula 01</title>
+    </head>
+    <body>
+        <noscript>Seu navegador nâo suporta JavaScript ou ele está desabilitado</noscript>
+        <h1>Onde colocar o codigo JavaScript?</h1>
+        <h2>02 - no Corpo</h2>
+        <p id="meu_texto_2">Conteudo inicial</p>
+        <button type="button" onclick="functionNoHead()">click aqui</button>
+        <script>
+            function functionNoHead() {
+                document.getElementById("meu_texto_2").innerHTML = "Alterei o conteudo.";
+            }
+        </script>
+    </body>
+</html>
